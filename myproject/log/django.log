@@ -1,0 +1,1279 @@
+INFO 2024-05-08 23:40:23,912 autoreload 15720 4152 Watching for file changes with StatReloader
+INFO 2024-05-08 23:40:27,430 basehttp 15720 24820 "GET / HTTP/1.1" 200 261
+WARNING 2024-05-08 23:40:27,949 log 15720 24820 Not Found: /favicon.ico
+WARNING 2024-05-08 23:40:27,949 basehttp 15720 24820 "GET /favicon.ico HTTP/1.1" 404 3075
+INFO 2024-05-08 23:41:02,047 basehttp 15720 24820 "GET /edit_commodity/1 HTTP/1.1" 301 0
+ERROR 2024-05-08 23:41:02,079 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:41:02,081 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 84904
+WARNING 2024-05-08 23:41:17,591 log 15720 10568 Not Found: /edit_commodity
+WARNING 2024-05-08 23:41:17,591 basehttp 15720 10568 "GET /edit_commodity HTTP/1.1" 404 3084
+ERROR 2024-05-08 23:43:04,070 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:43:04,072 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 84904
+ERROR 2024-05-08 23:44:00,730 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:44:00,733 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:44:04,452 autoreload 1576 20560 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:44:08,519 log 1576 23560 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:44:08,522 basehttp 1576 23560 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:45:07,399 autoreload 1576 20560 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:45:07,772 autoreload 1916 22736 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:45:13,855 log 1916 10220 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:45:13,858 basehttp 1916 10220 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:45:50,226 autoreload 1916 22736 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:45:50,630 autoreload 12384 14764 Watching for file changes with StatReloader
+INFO 2024-05-08 23:46:18,601 autoreload 12384 14764 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:46:18,988 autoreload 15344 10684 Watching for file changes with StatReloader
+INFO 2024-05-08 23:46:21,343 autoreload 15344 10684 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:46:21,715 autoreload 14064 20940 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:46:29,245 log 14064 7200 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/editcommodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/editcommodity.html
+ERROR 2024-05-08 23:46:29,248 basehttp 14064 7200 "GET /editcommodity/1/ HTTP/1.1" 500 84872
+INFO 2024-05-08 23:46:38,806 basehttp 14064 7200 "GET /commodity_form HTTP/1.1" 301 0
+ERROR 2024-05-08 23:46:38,826 log 14064 14704 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 42, in commodity_form
+    return render(request, 'myapp/commodity_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/commodity_form.html
+ERROR 2024-05-08 23:46:38,828 basehttp 14064 14704 "GET /commodity_form/ HTTP/1.1" 500 85241
+INFO 2024-05-08 23:47:47,244 autoreload 14064 20940 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:47:47,625 autoreload 4172 9580 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:47:53,532 log 4172 6476 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_commodity() got an unexpected keyword argument 'name_id'
+ERROR 2024-05-08 23:47:53,534 basehttp 4172 6476 "GET /editcommodity/1/ HTTP/1.1" 500 65686
+INFO 2024-05-08 23:48:02,440 autoreload 4172 9580 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:48:02,811 autoreload 24412 7416 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:48:05,864 log 24412 4356 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/editcommodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/editcommodity.html
+ERROR 2024-05-08 23:48:05,867 basehttp 24412 4356 "GET /editcommodity/1/ HTTP/1.1" 500 85009
+INFO 2024-05-08 23:48:10,460 autoreload 24412 7416 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:48:10,852 autoreload 25804 21212 Watching for file changes with StatReloader
+INFO 2024-05-08 23:48:14,274 autoreload 25804 21212 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:48:14,652 autoreload 12224 2196 Watching for file changes with StatReloader
+INFO 2024-05-08 23:49:12,315 autoreload 12224 2196 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:49:12,690 autoreload 5748 23272 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:49:19,441 log 5748 7428 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_commodity.html
+ERROR 2024-05-08 23:49:19,444 basehttp 5748 7428 "GET /edit_commodity/1/ HTTP/1.1" 500 84784
+WARNING 2024-05-08 23:49:58,295 log 5748 7428 Not Found: /orders_filtered
+WARNING 2024-05-08 23:49:58,295 basehttp 5748 7428 "GET /orders_filtered HTTP/1.1" 404 3087
+INFO 2024-05-08 23:50:05,302 basehttp 5748 7428 "GET /orders_filtered/2/ HTTP/1.1" 200 1326
+INFO 2024-05-08 23:50:35,241 autoreload 5748 23272 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:50:35,646 autoreload 25968 14780 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:50:40,334 log 25968 26120 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:50:40,337 basehttp 25968 26120 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+ERROR 2024-05-08 23:51:32,030 log 25968 26120 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:51:32,032 basehttp 25968 26120 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:51:42,748 autoreload 25968 14780 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:51:43,209 autoreload 7428 24416 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:51:45,623 log 7428 11624 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base.html
+ERROR 2024-05-08 23:51:45,629 basehttp 7428 11624 "GET /edit_commodity/1/ HTTP/1.1" 500 136024
+INFO 2024-05-08 23:52:10,499 basehttp 7428 11624 "GET /edit_commodity/1/ HTTP/1.1" 200 1433
+INFO 2024-05-08 23:52:18,607 basehttp 7428 11624 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+INFO 2024-05-08 23:52:40,583 basehttp 7428 11624 "GET /orders_filtered/2/ HTTP/1.1" 200 1326
+INFO 2024-05-08 23:52:56,449 autoreload 7428 24416 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:52:56,827 autoreload 23776 15588 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:53:01,216 log 23776 4172 Internal Server Error: /orders_filtered/2/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 32, in user_orders_filtered
+    return render(request, 'orders_filtered.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders_filtered.html
+ERROR 2024-05-08 23:53:01,219 basehttp 23776 4172 "GET /orders_filtered/2/ HTTP/1.1" 500 88513
+INFO 2024-05-08 23:53:09,582 autoreload 23776 15588 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:53:09,966 autoreload 21192 22596 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:53:26,282 log 21192 14448 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 42, in commodity_form
+    return render(request, 'myapp/commodity_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/commodity_form.html
+ERROR 2024-05-08 23:53:26,285 basehttp 21192 14448 "GET /commodity_form/ HTTP/1.1" 500 85842
+INFO 2024-05-08 23:53:33,973 autoreload 21192 22596 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:53:34,355 autoreload 21888 20648 Watching for file changes with StatReloader
+INFO 2024-05-08 23:54:44,606 basehttp 21888 2828 "GET /commodity_form/ HTTP/1.1" 200 1115
+ERROR 2024-05-08 23:55:01,390 log 21888 2828 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'CommodityForm' object has no attribute 'save'
+ERROR 2024-05-08 23:55:01,393 basehttp 21888 2828 "POST /commodity_form/ HTTP/1.1" 500 71394
+INFO 2024-05-08 23:57:21,343 autoreload 21888 20648 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:21,737 autoreload 24008 22452 Watching for file changes with StatReloader
+INFO 2024-05-08 23:57:25,089 autoreload 24008 22452 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:25,452 autoreload 22916 24964 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:57:31,862 log 22916 16704 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 36, in commodity_form
+    form = CommodityForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-08 23:57:31,864 basehttp 22916 16704 "POST /commodity_form/ HTTP/1.1" 500 77695
+INFO 2024-05-08 23:57:39,239 autoreload 22916 24964 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:39,643 autoreload 13160 26156 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:57:42,002 log 13160 26396 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'CommodityForm' object has no attribute 'save'
+ERROR 2024-05-08 23:57:42,004 basehttp 13160 26396 "POST /commodity_form/ HTTP/1.1" 500 71394
+INFO 2024-05-08 23:57:47,693 basehttp 13160 26396 "GET /commodity_form/ HTTP/1.1" 200 1115
+INFO 2024-05-08 23:58:21,250 autoreload 13160 26156 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:21,624 autoreload 19012 3488 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:25,993 autoreload 19012 3488 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:26,390 autoreload 15256 4444 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:48,195 autoreload 15256 4444 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:48,570 autoreload 23272 7548 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:51,914 autoreload 23272 7548 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:52,293 autoreload 1500 22368 Watching for file changes with StatReloader
+INFO 2024-05-08 23:59:59,166 autoreload 1500 22368 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:59:59,543 autoreload 6680 26320 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:00:10,413 log 6680 2680 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 41, in commodity_form
+    form = CommodityForm()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-09 00:00:10,416 basehttp 6680 2680 "GET /commodity_form/ HTTP/1.1" 500 75910
+ERROR 2024-05-09 00:00:21,235 log 6680 2680 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('commodity_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'commodity_list' not found. 'commodity_list' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:00:21,238 basehttp 6680 2680 "POST /edit_commodity/3/ HTTP/1.1" 500 90815
+INFO 2024-05-09 00:00:39,961 autoreload 6680 26320 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:40,347 autoreload 8408 7608 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:00:43,691 log 8408 15992 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('home')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:00:43,694 basehttp 8408 15992 "POST /edit_commodity/3/ HTTP/1.1" 500 90615
+INFO 2024-05-09 00:00:56,190 autoreload 8408 7608 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:56,567 autoreload 13304 12868 Watching for file changes with StatReloader
+INFO 2024-05-09 00:00:58,939 autoreload 13304 12868 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:59,357 autoreload 25216 3028 Watching for file changes with StatReloader
+INFO 2024-05-09 00:01:01,437 basehttp 25216 22668 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+WARNING 2024-05-09 00:01:01,447 log 25216 22668 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:01,448 basehttp 25216 22668 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+INFO 2024-05-09 00:01:16,193 autoreload 25216 3028 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:01:16,625 autoreload 5940 20940 Watching for file changes with StatReloader
+WARNING 2024-05-09 00:01:18,302 log 5940 16076 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:18,302 basehttp 5940 16076 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+WARNING 2024-05-09 00:01:21,823 log 5940 16076 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:21,824 basehttp 5940 16076 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+INFO 2024-05-09 00:01:25,867 basehttp 5940 16076 "GET /edit_commodity/3 HTTP/1.1" 301 0
+INFO 2024-05-09 00:01:25,892 basehttp 5940 2220 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+ERROR 2024-05-09 00:01:31,345 log 5940 2220 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('')
+           ^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:01:31,348 basehttp 5940 2220 "POST /edit_commodity/3/ HTTP/1.1" 500 90519
+INFO 2024-05-09 00:02:41,250 autoreload 5940 20940 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:02:41,628 autoreload 1968 1232 Watching for file changes with StatReloader
+INFO 2024-05-09 00:02:45,003 autoreload 1968 1232 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:02:45,390 autoreload 372 9952 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:02:47,145 log 372 18452 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<WSGIRequest: POST '/edit_commodity/3/'>' not found. '<WSGIRequest: POST '/edit_commodity/3/'>' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:02:47,148 basehttp 372 18452 "POST /edit_commodity/3/ HTTP/1.1" 500 90752
+INFO 2024-05-09 00:04:11,936 autoreload 372 9952 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:12,321 autoreload 21068 16860 Watching for file changes with StatReloader
+INFO 2024-05-09 00:04:13,668 autoreload 21068 16860 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:14,042 autoreload 23900 9772 Watching for file changes with StatReloader
+INFO 2024-05-09 00:04:23,560 autoreload 23900 9772 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:23,965 autoreload 1816 5864 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:04:26,025 log 1816 18612 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('home')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:04:26,028 basehttp 1816 18612 "POST /edit_commodity/3/ HTTP/1.1" 500 90615
+INFO 2024-05-09 00:05:25,912 autoreload 1816 5864 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:05:26,386 autoreload 15504 4356 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:05:30,046 log 15504 21596 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('index')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:05:30,048 basehttp 15504 21596 "POST /edit_commodity/3/ HTTP/1.1" 500 90617
+ERROR 2024-05-09 00:05:43,453 log 15504 21596 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('index')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:05:43,455 basehttp 15504 21596 "POST /edit_commodity/3/ HTTP/1.1" 500 90617
+INFO 2024-05-09 00:07:21,631 autoreload 15504 4356 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:22,002 autoreload 13304 26140 Watching for file changes with StatReloader
+INFO 2024-05-09 00:07:25,400 autoreload 13304 26140 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:25,769 autoreload 13888 24664 Watching for file changes with StatReloader
+INFO 2024-05-09 00:07:44,501 autoreload 13888 24664 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:44,894 autoreload 7288 25668 Watching for file changes with StatReloader
+INFO 2024-05-09 00:08:32,336 autoreload 21216 17344 Watching for file changes with StatReloader
+INFO 2024-05-09 00:08:36,456 basehttp 21216 13396 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:08:36,461 basehttp 21216 13396 "GET / HTTP/1.1" 200 261
+ERROR 2024-05-09 00:08:48,435 log 21216 13396 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form = CommodityForm()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-09 00:08:48,437 basehttp 21216 13396 "GET /commodity_form/ HTTP/1.1" 500 75764
+INFO 2024-05-09 00:09:40,928 basehttp 21216 13396 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+INFO 2024-05-09 00:09:45,491 basehttp 21216 13396 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:09:45,495 basehttp 21216 13396 "GET / HTTP/1.1" 200 261
+INFO 2024-05-09 00:11:23,052 autoreload 21216 17344 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:23,429 autoreload 25668 7288 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:27,850 autoreload 25668 7288 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:28,227 autoreload 19108 8420 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:31,557 autoreload 19108 8420 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:31,934 autoreload 26164 1916 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:48,576 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1115
+INFO 2024-05-09 00:12:12,305 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1129
+INFO 2024-05-09 00:12:22,617 basehttp 26164 11384 "POST /commodity_form/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:12:22,622 basehttp 26164 11384 "GET / HTTP/1.1" 200 261
+INFO 2024-05-09 00:13:04,413 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1129
+INFO 2024-05-09 00:14:01,966 basehttp 26164 11384 "POST /commodity_form/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:14:01,970 basehttp 26164 11384 "GET / HTTP/1.1" 200 261
+INFO 2024-05-11 17:26:10,462 autoreload 23828 5268 Watching for file changes with StatReloader
+INFO 2024-05-11 17:26:13,341 basehttp 23828 28244 "GET / HTTP/1.1" 200 261
+WARNING 2024-05-11 17:26:13,790 log 23828 28244 Not Found: /favicon.ico
+WARNING 2024-05-11 17:26:13,791 basehttp 23828 28244 "GET /favicon.ico HTTP/1.1" 404 3075
+INFO 2024-05-11 17:26:20,417 basehttp 23828 28244 "GET /admin HTTP/1.1" 301 0
+INFO 2024-05-11 17:26:20,428 basehttp 23828 16808 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:26:20,459 basehttp 23828 16808 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-11 17:26:20,626 basehttp 23828 16196 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-05-11 17:26:20,628 basehttp 23828 25240 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-05-11 17:26:20,630 basehttp 23828 18984 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-05-11 17:26:20,632 basehttp 23828 7776 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-05-11 17:26:20,635 basehttp 23828 16808 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-05-11 17:26:20,731 basehttp 23828 7776 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-11 17:26:20,731 basehttp 23828 16808 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-11 17:26:27,795 basehttp 23828 16808 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:26:27,807 basehttp 23828 16808 "GET /admin/ HTTP/1.1" 200 5943
+INFO 2024-05-11 17:26:27,824 basehttp 23828 16808 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-05-11 17:26:28,075 basehttp 23828 16808 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-11 17:26:28,076 basehttp 23828 7776 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-11 17:27:04,021 basehttp 23828 7776 "GET /admin/auth/user/ HTTP/1.1" 200 11918
+INFO 2024-05-11 17:27:04,046 basehttp 23828 7776 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-05-11 17:27:04,046 basehttp 23828 25240 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-05-11 17:27:04,047 basehttp 23828 16196 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-05-11 17:27:04,050 basehttp 23828 16828 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-05-11 17:27:04,053 basehttp 23828 7776 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-05-11 17:27:04,053 basehttp 23828 25240 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-05-11 17:27:04,053 basehttp 23828 16808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:04,053 basehttp 23828 16196 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-05-11 17:27:04,055 basehttp 23828 16808 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-05-11 17:27:04,055 basehttp 23828 25240 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-05-11 17:27:04,056 basehttp 23828 18984 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-05-11 17:27:04,057 basehttp 23828 16828 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-05-11 17:27:04,303 basehttp 23828 16828 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-05-11 17:27:04,323 basehttp 23828 16808 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-05-11 17:27:04,323 basehttp 23828 18984 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-05-11 17:27:04,323 basehttp 23828 16828 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-05-11 17:27:08,809 basehttp 23828 16828 "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 12325
+INFO 2024-05-11 17:27:08,830 basehttp 23828 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:09,087 basehttp 23828 16828 "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+INFO 2024-05-11 17:27:10,011 basehttp 23828 16828 "GET /admin/auth/user/? HTTP/1.1" 200 11918
+INFO 2024-05-11 17:27:10,030 basehttp 23828 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:11,503 basehttp 23828 16828 "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 12325
+INFO 2024-05-11 17:27:11,518 basehttp 23828 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:20,551 basehttp 23828 16828 "GET /admin/auth/user/add/ HTTP/1.1" 200 11237
+INFO 2024-05-11 17:27:20,571 basehttp 23828 18984 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-05-11 17:27:20,572 basehttp 23828 16828 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-05-11 17:27:20,573 basehttp 23828 16808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:20,813 basehttp 23828 16808 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-05-11 17:27:20,818 basehttp 23828 16808 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-05-11 17:27:38,241 basehttp 23828 16808 "POST /admin/auth/user/add/ HTTP/1.1" 200 11509
+INFO 2024-05-11 17:27:38,259 basehttp 23828 16808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:56,702 basehttp 23828 16808 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:27:56,731 basehttp 23828 16808 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24013
+INFO 2024-05-11 17:27:56,757 basehttp 23828 25240 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-05-11 17:27:56,757 basehttp 23828 18984 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-05-11 17:27:56,757 basehttp 23828 16828 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-05-11 17:27:56,758 basehttp 23828 16196 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-05-11 17:27:56,760 basehttp 23828 16808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:27:57,042 basehttp 23828 16828 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-05-11 17:27:57,042 basehttp 23828 16196 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-05-11 17:27:57,042 basehttp 23828 16808 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-05-11 17:27:57,043 basehttp 23828 25240 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-05-11 17:27:57,043 basehttp 23828 18984 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-05-11 17:28:14,646 basehttp 23828 18984 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:28:14,657 basehttp 23828 18984 "GET /admin/auth/user/add/ HTTP/1.1" 200 11528
+INFO 2024-05-11 17:28:14,680 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:28:29,933 basehttp 23828 18984 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:28:29,954 basehttp 23828 18984 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 24018
+INFO 2024-05-11 17:28:29,979 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:28:40,071 basehttp 23828 18984 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:28:40,083 basehttp 23828 18984 "GET /admin/auth/user/ HTTP/1.1" 200 13139
+INFO 2024-05-11 17:28:40,103 basehttp 23828 25240 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-05-11 17:28:40,105 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:28:44,184 basehttp 23828 18984 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23717
+INFO 2024-05-11 17:28:44,201 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:28:51,026 basehttp 23828 18984 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:28:51,039 basehttp 23828 18984 "GET /admin/auth/user/ HTTP/1.1" 200 13138
+INFO 2024-05-11 17:28:51,065 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:28:52,900 basehttp 23828 18984 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23721
+INFO 2024-05-11 17:28:52,920 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:29:00,473 basehttp 23828 18984 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:29:00,485 basehttp 23828 18984 "GET /admin/auth/user/ HTTP/1.1" 200 13139
+INFO 2024-05-11 17:29:00,506 basehttp 23828 18984 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:30:36,603 autoreload 23828 5268 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:30:36,992 autoreload 28208 26536 Watching for file changes with StatReloader
+INFO 2024-05-11 17:30:43,342 autoreload 28208 26536 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:30:43,705 autoreload 14224 28948 Watching for file changes with StatReloader
+INFO 2024-05-11 17:30:46,994 autoreload 14224 28948 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:30:47,364 autoreload 20576 4240 Watching for file changes with StatReloader
+INFO 2024-05-11 17:30:48,616 autoreload 20576 4240 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:30:48,978 autoreload 16480 9584 Watching for file changes with StatReloader
+INFO 2024-05-11 17:30:56,333 autoreload 16480 9584 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:30:56,706 autoreload 28452 27660 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:01,106 autoreload 28452 27660 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:01,501 autoreload 28028 25016 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:03,852 autoreload 28028 25016 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:04,229 autoreload 3064 16348 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:06,494 autoreload 3064 16348 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:06,872 autoreload 10600 28972 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:11,276 autoreload 10600 28972 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:11,664 autoreload 28312 16732 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:12,999 autoreload 28312 16732 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:13,383 autoreload 23836 2852 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:15,652 autoreload 23836 2852 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:16,015 autoreload 1340 27220 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:18,292 autoreload 1340 27220 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:18,650 autoreload 27956 23544 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:20,925 autoreload 27956 23544 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:21,307 autoreload 5888 29448 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:30,833 autoreload 5888 29448 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:31,230 autoreload 14232 5728 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:37,686 autoreload 14232 5728 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:38,060 autoreload 24352 1132 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:40,424 autoreload 24352 1132 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:40,800 autoreload 24004 13484 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:42,054 autoreload 24004 13484 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:42,428 autoreload 29108 21412 Watching for file changes with StatReloader
+INFO 2024-05-11 17:31:43,759 autoreload 29108 21412 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:31:44,156 autoreload 1324 6024 Watching for file changes with StatReloader
+INFO 2024-05-11 17:32:15,897 autoreload 28752 8536 Watching for file changes with StatReloader
+INFO 2024-05-11 17:32:19,858 basehttp 28752 6892 "GET /admin/auth/user/ HTTP/1.1" 200 12918
+INFO 2024-05-11 17:32:19,877 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:32:25,524 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 7782
+INFO 2024-05-11 17:32:25,543 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:32:31,108 basehttp 28752 6892 "GET /admin/auth/group/add/ HTTP/1.1" 200 13694
+INFO 2024-05-11 17:32:31,129 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:33:13,587 basehttp 28752 6892 "POST /admin/auth/group/add/ HTTP/1.1" 200 13972
+INFO 2024-05-11 17:33:13,606 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:33:41,529 basehttp 28752 6892 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:33:41,553 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 9535
+INFO 2024-05-11 17:33:41,575 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:33:44,875 basehttp 28752 6892 "GET /admin/auth/group/add/ HTTP/1.1" 200 13694
+INFO 2024-05-11 17:33:44,895 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:34:14,769 basehttp 28752 6892 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:34:14,779 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 9883
+INFO 2024-05-11 17:34:14,800 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:34:16,654 basehttp 28752 6892 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 13983
+INFO 2024-05-11 17:34:16,676 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:34:18,344 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 9662
+INFO 2024-05-11 17:34:19,617 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 9662
+INFO 2024-05-11 17:34:19,636 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:34:21,012 basehttp 28752 6892 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 13975
+INFO 2024-05-11 17:34:21,031 basehttp 28752 6892 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:34:22,353 basehttp 28752 6892 "GET /admin/auth/group/ HTTP/1.1" 200 9662
+INFO 2024-05-11 17:34:36,707 autoreload 28752 8536 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:34:37,107 autoreload 320 27660 Watching for file changes with StatReloader
+INFO 2024-05-11 17:34:58,916 autoreload 320 27660 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:34:59,315 autoreload 26088 12972 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:01,614 autoreload 26088 12972 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:01,985 autoreload 16820 21680 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:06,310 autoreload 16820 21680 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:06,697 autoreload 28816 29692 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:13,171 autoreload 28816 29692 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:13,587 autoreload 24696 12700 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:23,129 autoreload 24696 12700 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:23,524 autoreload 6868 18728 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:25,901 autoreload 6868 18728 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:26,295 autoreload 18032 28704 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:27,549 autoreload 18032 28704 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:35:27,951 autoreload 18600 18516 Watching for file changes with StatReloader
+INFO 2024-05-11 17:35:32,007 basehttp 18600 1124 "GET /admin/auth/group/ HTTP/1.1" 200 10511
+INFO 2024-05-11 17:35:32,026 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:36,083 basehttp 18600 1124 "GET /admin/myapp/category/ HTTP/1.1" 200 8258
+INFO 2024-05-11 17:35:36,102 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:37,500 basehttp 18600 1124 "GET /admin/myapp/product/ HTTP/1.1" 200 8251
+INFO 2024-05-11 17:35:37,520 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:39,371 basehttp 18600 1124 "GET /admin/myapp/category/ HTTP/1.1" 200 8258
+INFO 2024-05-11 17:35:39,387 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:41,627 basehttp 18600 1124 "GET /admin/auth/user/ HTTP/1.1" 200 14154
+INFO 2024-05-11 17:35:41,646 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:42,870 basehttp 18600 1124 "GET /admin/auth/group/ HTTP/1.1" 200 10511
+INFO 2024-05-11 17:35:42,887 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:45,213 basehttp 18600 1124 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 14832
+INFO 2024-05-11 17:35:45,232 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:46,674 basehttp 18600 1124 "GET /admin/auth/group/2/delete/ HTTP/1.1" 200 8719
+INFO 2024-05-11 17:35:46,753 basehttp 18600 1124 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-05-11 17:35:47,956 basehttp 18600 1124 "POST /admin/auth/group/2/delete/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:35:47,966 basehttp 18600 1124 "GET /admin/auth/group/ HTTP/1.1" 200 10344
+INFO 2024-05-11 17:35:47,986 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:49,295 basehttp 18600 1124 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 14824
+INFO 2024-05-11 17:35:49,322 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:35:50,612 basehttp 18600 1124 "GET /admin/auth/group/1/delete/ HTTP/1.1" 200 8713
+INFO 2024-05-11 17:35:52,757 basehttp 18600 1124 "POST /admin/auth/group/1/delete/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:35:52,767 basehttp 18600 1124 "GET /admin/auth/group/ HTTP/1.1" 200 8808
+INFO 2024-05-11 17:35:53,215 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:36:48,866 basehttp 18600 1124 "GET /admin/myapp/category/ HTTP/1.1" 200 8258
+INFO 2024-05-11 17:36:48,884 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:38:06,404 basehttp 18600 1124 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9099
+INFO 2024-05-11 17:38:06,434 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:38:14,125 basehttp 18600 1124 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:38:14,134 basehttp 18600 1124 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9402
+INFO 2024-05-11 17:38:14,156 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:38:56,474 basehttp 18600 1124 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:38:56,484 basehttp 18600 1124 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9392
+INFO 2024-05-11 17:38:56,501 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:10,757 basehttp 18600 1124 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:39:10,766 basehttp 18600 1124 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9384
+INFO 2024-05-11 17:39:10,786 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:14,827 basehttp 18600 1124 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:39:14,839 basehttp 18600 1124 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9404
+INFO 2024-05-11 17:39:14,856 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:16,930 basehttp 18600 1124 "POST /admin/myapp/category/add/ HTTP/1.1" 200 9305
+INFO 2024-05-11 17:39:16,949 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:19,057 basehttp 18600 1124 "GET /admin/myapp/category/ HTTP/1.1" 200 10855
+INFO 2024-05-11 17:39:19,077 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:21,174 basehttp 18600 1124 "GET /admin/myapp/category/4/change/ HTTP/1.1" 200 9401
+INFO 2024-05-11 17:39:21,194 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:24,863 basehttp 18600 1124 "GET /admin/myapp/product/ HTTP/1.1" 200 8251
+INFO 2024-05-11 17:39:24,880 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:26,053 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11085
+INFO 2024-05-11 17:39:26,072 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:42,380 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:39:42,392 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11371
+INFO 2024-05-11 17:39:42,418 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:50,777 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:39:50,788 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11371
+INFO 2024-05-11 17:39:50,806 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:39:55,292 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:39:55,303 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11377
+INFO 2024-05-11 17:39:55,322 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:00,915 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:00,926 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11371
+INFO 2024-05-11 17:40:00,943 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:06,631 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:06,642 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11365
+INFO 2024-05-11 17:40:06,666 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:12,162 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:12,174 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11371
+INFO 2024-05-11 17:40:12,192 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:21,309 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:21,320 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11371
+INFO 2024-05-11 17:40:21,346 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:25,566 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:25,576 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11375
+INFO 2024-05-11 17:40:25,596 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:30,122 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:30,134 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11367
+INFO 2024-05-11 17:40:30,159 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:38,837 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:38,847 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11366
+INFO 2024-05-11 17:40:38,866 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:43,052 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:43,065 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11370
+INFO 2024-05-11 17:40:43,090 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:48,092 basehttp 18600 1124 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 17:40:48,103 basehttp 18600 1124 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11368
+INFO 2024-05-11 17:40:48,120 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:49,690 basehttp 18600 1124 "GET /admin/myapp/category/ HTTP/1.1" 200 10855
+INFO 2024-05-11 17:40:49,716 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:40:51,301 basehttp 18600 1124 "GET /admin/myapp/product/ HTTP/1.1" 200 13463
+INFO 2024-05-11 17:40:51,319 basehttp 18600 1124 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 17:41:41,431 autoreload 18600 18516 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:41:41,857 autoreload 19860 23960 Watching for file changes with StatReloader
+INFO 2024-05-11 17:41:45,262 autoreload 19860 23960 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:41:45,653 autoreload 12148 5592 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:17,064 autoreload 12148 5592 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:17,476 autoreload 28028 18316 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:19,736 autoreload 28028 18316 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:20,112 autoreload 18032 29008 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:21,367 autoreload 18032 29008 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:21,744 autoreload 26756 8416 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:25,125 autoreload 26756 8416 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:25,522 autoreload 16204 29248 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:26,869 autoreload 16204 29248 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:27,247 autoreload 9916 22784 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:30,534 autoreload 9916 22784 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:30,899 autoreload 25176 1328 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:32,151 autoreload 25176 1328 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:32,527 autoreload 25016 3568 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:33,785 autoreload 25016 3568 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:34,189 autoreload 12316 25048 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:42,710 autoreload 12316 25048 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:43,102 autoreload 13616 11212 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:47,520 autoreload 13616 11212 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:47,891 autoreload 27488 3232 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:50,148 autoreload 27488 3232 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:50,522 autoreload 23448 25044 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:52,869 autoreload 23448 25044 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:53,240 autoreload 7884 4680 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:55,519 autoreload 7884 4680 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:55,889 autoreload 28544 27440 Watching for file changes with StatReloader
+INFO 2024-05-11 17:43:59,283 autoreload 28544 27440 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:43:59,653 autoreload 26220 22748 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:04,973 autoreload 26220 22748 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:05,354 autoreload 17644 22368 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:10,788 autoreload 17644 22368 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:11,172 autoreload 19112 2916 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:24,794 autoreload 19112 2916 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:25,170 autoreload 9916 28036 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:26,422 autoreload 9916 28036 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:26,799 autoreload 1328 25176 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:38,368 autoreload 1328 25176 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:38,742 autoreload 19516 24144 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:39,988 autoreload 19516 24144 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:40,366 autoreload 25088 28776 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:42,729 autoreload 25088 28776 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:43,117 autoreload 20808 2256 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:46,486 autoreload 20808 2256 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:46,867 autoreload 25720 17216 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:49,240 autoreload 25720 17216 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:49,609 autoreload 22548 11424 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:54,935 autoreload 22548 11424 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:55,293 autoreload 17828 13784 Watching for file changes with StatReloader
+INFO 2024-05-11 17:44:58,602 autoreload 17828 13784 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:44:58,958 autoreload 19264 24788 Watching for file changes with StatReloader
+INFO 2024-05-11 17:45:03,270 autoreload 19264 24788 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:45:03,631 autoreload 27612 28228 Watching for file changes with StatReloader
+INFO 2024-05-11 17:45:04,889 autoreload 27612 28228 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:45:05,254 autoreload 8936 4484 Watching for file changes with StatReloader
+INFO 2024-05-11 17:52:34,674 autoreload 8936 4484 D:\python\django_seminar_4\myproject\myapp\models.py changed, reloading.
+INFO 2024-05-11 17:52:35,051 autoreload 11260 26280 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:17,754 autoreload 11260 26280 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:18,136 autoreload 28352 22448 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:21,447 autoreload 28352 22448 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:21,816 autoreload 21648 27612 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:27,238 autoreload 21648 27612 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:27,624 autoreload 13400 15328 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:29,911 autoreload 13400 15328 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:30,287 autoreload 20300 25016 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:31,613 autoreload 20300 25016 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:32,005 autoreload 4552 19620 Watching for file changes with StatReloader
+INFO 2024-05-11 17:54:35,374 autoreload 4552 19620 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:54:35,759 autoreload 15888 10340 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:24,187 autoreload 15888 10340 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:24,575 autoreload 21380 12744 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:25,843 autoreload 21380 12744 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:26,213 autoreload 25748 25560 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:27,494 autoreload 25748 25560 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:27,873 autoreload 5736 25456 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:29,157 autoreload 5736 25456 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:29,531 autoreload 24352 1292 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:57,419 autoreload 24352 1292 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:57,800 autoreload 8332 4604 Watching for file changes with StatReloader
+INFO 2024-05-11 17:55:59,124 autoreload 8332 4604 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:55:59,514 autoreload 25864 17100 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:00,829 autoreload 25864 17100 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:01,219 autoreload 9944 8348 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:02,553 autoreload 9944 8348 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:02,938 autoreload 25784 7932 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:08,377 autoreload 25784 7932 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:08,765 autoreload 29424 28944 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:16,208 autoreload 29424 28944 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:16,602 autoreload 11088 2540 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:18,938 autoreload 11088 2540 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:19,312 autoreload 19312 23972 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:20,632 autoreload 19312 23972 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:21,012 autoreload 7992 6976 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:25,384 autoreload 7992 6976 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:25,754 autoreload 29448 11084 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:31,098 autoreload 29448 11084 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:31,471 autoreload 28968 25580 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:34,846 autoreload 28968 25580 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:35,222 autoreload 27504 17828 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:36,544 autoreload 27504 17828 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:36,919 autoreload 320 3328 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:40,274 autoreload 320 3328 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:40,648 autoreload 20820 23952 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:42,932 autoreload 20820 23952 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:43,308 autoreload 16464 27100 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:46,672 autoreload 16464 27100 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:47,044 autoreload 11544 16948 Watching for file changes with StatReloader
+INFO 2024-05-11 17:56:58,588 autoreload 11544 16948 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:56:58,961 autoreload 17724 23836 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:03,335 autoreload 17724 23836 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:03,702 autoreload 28596 360 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:07,006 autoreload 28596 360 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:07,379 autoreload 3056 28040 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:09,872 autoreload 3056 28040 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:10,242 autoreload 11224 3648 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:18,635 autoreload 11224 3648 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:19,000 autoreload 29448 14332 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:24,354 autoreload 29448 14332 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:24,724 autoreload 26996 9788 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:26,008 autoreload 26996 9788 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:26,380 autoreload 17772 3328 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:29,824 autoreload 17772 3328 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:30,204 autoreload 27956 10432 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:44,851 autoreload 27956 10432 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:45,249 autoreload 25252 8964 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:46,560 autoreload 25252 8964 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:46,931 autoreload 14316 6944 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:48,255 autoreload 14316 6944 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:48,633 autoreload 17920 18992 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:49,942 autoreload 17920 18992 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:50,324 autoreload 9700 12972 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:53,682 autoreload 9700 12972 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:54,063 autoreload 22148 6964 Watching for file changes with StatReloader
+INFO 2024-05-11 17:57:58,443 autoreload 22148 6964 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:57:58,816 autoreload 25268 25048 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:05,234 autoreload 25268 25048 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:05,618 autoreload 25880 25016 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:06,938 autoreload 25880 25016 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:07,313 autoreload 7452 20180 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:08,644 autoreload 7452 20180 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:09,019 autoreload 19192 5888 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:11,353 autoreload 19192 5888 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:11,730 autoreload 27120 21612 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:15,086 autoreload 27120 21612 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:15,466 autoreload 21464 19788 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:16,776 autoreload 21464 19788 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:17,149 autoreload 17860 24532 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:19,502 autoreload 17860 24532 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:19,878 autoreload 28752 19712 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:26,301 autoreload 28752 19712 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:26,672 autoreload 17612 18900 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:30,062 autoreload 17612 18900 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:30,456 autoreload 17372 13964 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:32,817 autoreload 17372 13964 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:33,202 autoreload 24556 20808 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:36,588 autoreload 24556 20808 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:36,977 autoreload 7264 17316 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:38,295 autoreload 7264 17316 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:38,671 autoreload 29368 16740 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:39,999 autoreload 29368 16740 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:40,378 autoreload 5804 28204 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:49,904 autoreload 5804 28204 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:50,288 autoreload 12920 1812 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:52,637 autoreload 12920 1812 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:53,023 autoreload 14676 29692 Watching for file changes with StatReloader
+INFO 2024-05-11 17:58:55,382 autoreload 14676 29692 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:58:55,766 autoreload 7896 28704 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:14,508 autoreload 7896 28704 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:14,902 autoreload 6976 24760 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:17,249 autoreload 6976 24760 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:17,641 autoreload 28208 25580 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:19,994 autoreload 28208 25580 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:20,391 autoreload 29240 15740 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:24,798 autoreload 29240 15740 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:25,209 autoreload 22968 28556 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:29,616 autoreload 22968 28556 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:30,008 autoreload 5268 20928 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:31,350 autoreload 5268 20928 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:31,731 autoreload 24556 6316 Watching for file changes with StatReloader
+INFO 2024-05-11 17:59:39,204 autoreload 24556 6316 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 17:59:39,592 autoreload 25864 29476 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:00,329 autoreload 25864 29476 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:00,706 autoreload 28412 22148 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:04,084 autoreload 28412 22148 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:04,468 autoreload 9420 12144 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:06,814 autoreload 9420 12144 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:07,195 autoreload 25016 25880 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:13,647 autoreload 25016 25880 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:14,036 autoreload 27120 28544 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:21,513 autoreload 27120 28544 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:21,902 autoreload 23252 24084 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:28,356 autoreload 23252 24084 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:28,739 autoreload 26112 6316 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:32,121 autoreload 26112 6316 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:32,503 autoreload 23960 8664 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:33,849 autoreload 23960 8664 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:34,239 autoreload 25524 23336 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:38,646 autoreload 25524 23336 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:39,040 autoreload 11424 28832 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:40,369 autoreload 11424 28832 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:40,755 autoreload 18924 9592 Watching for file changes with StatReloader
+INFO 2024-05-11 18:00:42,111 autoreload 18924 9592 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:00:42,510 autoreload 14676 29692 Watching for file changes with StatReloader
+INFO 2024-05-11 18:09:07,147 autoreload 25840 424 Watching for file changes with StatReloader
+INFO 2024-05-11 18:09:10,752 basehttp 25840 24912 "GET /admin/myapp/product/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:09:10,778 basehttp 25840 24912 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4387
+INFO 2024-05-11 18:09:19,465 basehttp 25840 24912 "POST /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:09:19,489 basehttp 25840 24912 "GET /admin/myapp/product/ HTTP/1.1" 200 9858
+INFO 2024-05-11 18:09:19,528 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:09:24,299 basehttp 25840 24912 "GET /admin/myapp/category/ HTTP/1.1" 200 8258
+INFO 2024-05-11 18:09:24,317 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:09:28,479 basehttp 25840 24912 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9099
+INFO 2024-05-11 18:09:28,508 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:09:44,758 basehttp 25840 24912 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:09:44,767 basehttp 25840 24912 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9388
+INFO 2024-05-11 18:09:44,792 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:09:57,045 basehttp 25840 24912 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:09:57,055 basehttp 25840 24912 "GET /admin/myapp/category/add/ HTTP/1.1" 200 9392
+INFO 2024-05-11 18:09:57,086 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:04,733 basehttp 25840 24912 "POST /admin/myapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:04,747 basehttp 25840 24912 "GET /admin/myapp/category/ HTTP/1.1" 200 10668
+INFO 2024-05-11 18:10:04,766 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:06,840 basehttp 25840 24912 "GET /admin/myapp/product/ HTTP/1.1" 200 10244
+INFO 2024-05-11 18:10:06,867 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:08,933 basehttp 25840 24912 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14436
+INFO 2024-05-11 18:10:08,953 basehttp 25840 24912 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:08,993 basehttp 25840 20108 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-05-11 18:10:26,893 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:26,908 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14722
+INFO 2024-05-11 18:10:26,941 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:36,689 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:36,702 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14722
+INFO 2024-05-11 18:10:36,722 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:42,580 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:42,593 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14728
+INFO 2024-05-11 18:10:42,620 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:49,186 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:49,199 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14722
+INFO 2024-05-11 18:10:49,217 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:10:55,202 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:10:55,214 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14716
+INFO 2024-05-11 18:10:55,243 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:01,840 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:11:01,854 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14722
+INFO 2024-05-11 18:11:01,877 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:08,712 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:11:08,724 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14722
+INFO 2024-05-11 18:11:08,753 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:16,144 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:11:16,157 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14726
+INFO 2024-05-11 18:11:16,178 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:27,092 basehttp 25840 20108 "POST /admin/myapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:11:27,102 basehttp 25840 20108 "GET /admin/myapp/product/add/ HTTP/1.1" 200 14718
+INFO 2024-05-11 18:11:27,129 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:29,832 basehttp 25840 20108 "GET /admin/myapp/product/ HTTP/1.1" 200 17440
+INFO 2024-05-11 18:11:29,851 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:34,410 basehttp 25840 20108 "GET /admin/myapp/product/?category__id__exact=1 HTTP/1.1" 200 15260
+INFO 2024-05-11 18:11:34,438 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:35,753 basehttp 25840 20108 "GET /admin/myapp/product/?category__id__exact=2 HTTP/1.1" 200 15248
+INFO 2024-05-11 18:11:35,771 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:36,820 basehttp 25840 20108 "GET /admin/myapp/product/?category__id__exact=3 HTTP/1.1" 200 15236
+INFO 2024-05-11 18:11:37,391 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:38,292 basehttp 25840 20108 "GET /admin/myapp/product/? HTTP/1.1" 200 17440
+INFO 2024-05-11 18:11:38,310 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:42,637 basehttp 25840 20108 "GET /admin/myapp/category/ HTTP/1.1" 200 10457
+INFO 2024-05-11 18:11:42,664 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:11:44,342 basehttp 25840 20108 "GET /admin/myapp/product/ HTTP/1.1" 200 17440
+INFO 2024-05-11 18:11:44,361 basehttp 25840 20108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:12:43,768 autoreload 25840 424 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:12:44,158 autoreload 3232 27932 Watching for file changes with StatReloader
+INFO 2024-05-11 18:12:45,431 autoreload 3232 27932 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:12:45,807 autoreload 24560 20232 Watching for file changes with StatReloader
+INFO 2024-05-11 18:12:51,228 autoreload 24560 20232 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:12:51,617 autoreload 28020 3056 Watching for file changes with StatReloader
+INFO 2024-05-11 18:12:57,166 basehttp 28020 7752 "GET /admin/myapp/product/ HTTP/1.1" 200 17440
+INFO 2024-05-11 18:12:57,187 basehttp 28020 7752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:13:04,301 basehttp 28020 7752 "GET /admin/myapp/product/ HTTP/1.1" 200 17440
+INFO 2024-05-11 18:13:04,320 basehttp 28020 7752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:13:52,524 autoreload 28020 3056 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:13:52,925 autoreload 19516 20300 Watching for file changes with StatReloader
+INFO 2024-05-11 18:13:54,190 autoreload 19516 20300 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:13:54,561 autoreload 17756 18900 Watching for file changes with StatReloader
+INFO 2024-05-11 18:14:28,441 autoreload 17756 18900 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:14:28,842 autoreload 27660 23140 Watching for file changes with StatReloader
+INFO 2024-05-11 18:14:58,656 autoreload 27660 23140 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:14:59,051 autoreload 4032 23828 Watching for file changes with StatReloader
+INFO 2024-05-11 18:15:03,371 autoreload 4032 23828 D:\python\django_seminar_4\myproject\myapp\admin.py changed, reloading.
+INFO 2024-05-11 18:15:03,744 autoreload 1512 9916 Watching for file changes with StatReloader
+INFO 2024-05-11 18:15:07,935 basehttp 1512 7708 "GET /admin/myapp/product/ HTTP/1.1" 200 17515
+INFO 2024-05-11 18:15:07,953 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:15:26,337 basehttp 1512 7708 "GET /admin/auth/user/ HTTP/1.1" 200 12767
+INFO 2024-05-11 18:15:26,366 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:15:27,409 basehttp 1512 7708 "GET /admin/auth/user/add/ HTTP/1.1" 200 12086
+INFO 2024-05-11 18:15:27,428 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:15:46,064 basehttp 1512 7708 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:15:46,092 basehttp 1512 7708 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25126
+INFO 2024-05-11 18:15:46,120 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:16:23,769 basehttp 1512 7708 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:16:23,782 basehttp 1512 7708 "GET /admin/auth/user/ HTTP/1.1" 200 13489
+INFO 2024-05-11 18:16:23,804 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:16:28,336 basehttp 1512 7708 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-11 18:16:32,469 basehttp 1512 7708 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:16:32,476 basehttp 1512 7708 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-11 18:16:39,555 basehttp 1512 7708 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO 2024-05-11 18:16:54,622 basehttp 1512 7708 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO 2024-05-11 18:17:02,306 basehttp 1512 7708 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:17:02,317 basehttp 1512 7708 "GET /admin/ HTTP/1.1" 200 10717
+INFO 2024-05-11 18:17:06,847 basehttp 1512 7708 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24909
+INFO 2024-05-11 18:17:06,871 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:17:13,520 basehttp 1512 7708 "GET /admin/auth/user/2/history/ HTTP/1.1" 200 7765
+INFO 2024-05-11 18:17:17,006 basehttp 1512 7708 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24909
+INFO 2024-05-11 18:17:36,320 basehttp 1512 7708 "GET /admin/auth/user/ HTTP/1.1" 200 13268
+INFO 2024-05-11 18:17:36,346 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:17:37,741 basehttp 1512 7708 "GET /admin/auth/user/add/ HTTP/1.1" 200 12086
+INFO 2024-05-11 18:17:37,770 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:17:38,821 basehttp 1512 7708 "GET /admin/auth/user/ HTTP/1.1" 200 13268
+INFO 2024-05-11 18:17:41,486 basehttp 1512 7708 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-11 18:17:42,696 basehttp 1512 7708 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:17:42,701 basehttp 1512 7708 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-11 18:17:50,749 basehttp 1512 7708 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-11 18:17:50,758 basehttp 1512 7708 "GET /admin/ HTTP/1.1" 200 5887
+INFO 2024-05-11 18:17:53,795 basehttp 1512 7708 "GET /admin/myapp/category/ HTTP/1.1" 200 9544
+INFO 2024-05-11 18:17:53,828 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:17:55,441 basehttp 1512 7708 "GET /admin/myapp/product/ HTTP/1.1" 200 16602
+INFO 2024-05-11 18:17:55,460 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:17:59,214 basehttp 1512 7708 "GET /admin/myapp/product/3/change/ HTTP/1.1" 200 13786
+INFO 2024-05-11 18:17:59,242 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:18:09,346 basehttp 1512 7708 "GET /admin/myapp/category/ HTTP/1.1" 200 9544
+INFO 2024-05-11 18:18:09,363 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-11 18:18:10,388 basehttp 1512 7708 "GET /admin/myapp/product/ HTTP/1.1" 200 16602
+INFO 2024-05-11 18:18:10,415 basehttp 1512 7708 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
